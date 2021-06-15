@@ -1,5 +1,5 @@
-@use '../custom' as *;
-@use '../components/mixins' as *;
+@use '../custom'as *;
+@use '../components/mixins'as *;
 
 .testimonials {
     position: relative;
@@ -8,15 +8,17 @@
     @include gradient;
 
     &__card {
-        background-color: rgba($white,0.8);
+        background-color: rgba($white, 0.8);
         padding: 2rem 1.25rem;
         border-radius: 0.625rem;
         height: auto;
         text-align: center;
+
         i {
             font-size: 1.5rem;
             color: rgba($primary, 0.7);
         }
+
         .ratings {
             i {
                 font-size: 1rem;
@@ -31,9 +33,9 @@
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
-        
+
         img {
-            border: 0.325rem solid rgba($primary,0.7);
+            border: 0.325rem solid rgba($primary, 0.7);
         }
     }
 
