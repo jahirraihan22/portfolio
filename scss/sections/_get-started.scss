@@ -1,0 +1,48 @@
+@use '../custom'as *;
+@use '../components/mixins'as *;
+
+.map-responsive {
+
+    overflow: hidden;
+
+    padding-bottom: 56.25%;
+
+    position: relative;
+
+    height: 0;
+
+}
+
+.map-responsive iframe {
+
+    left: 0;
+
+    top: 0;
+
+    height: 100%;
+
+    width: 100%;
+
+    position: absolute;
+
+}
+
+.get-started {
+    padding: 4rem 0;
+    background-color: $gray-200;
+}
+
+.form {
+    padding: 3rem;
+
+    button {
+        border: none;
+        color: $white;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+    }
+}

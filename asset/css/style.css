@@ -10843,6 +10843,10 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.gradient {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
@@ -11054,6 +11058,39 @@ textarea.form-control-lg {
   visibility: visible;
   transition-duration: 1000ms;
   transition-property: all;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.get-started {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #fff;
+}
+.form button a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */

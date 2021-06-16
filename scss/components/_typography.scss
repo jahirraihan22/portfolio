@@ -1,4 +1,3 @@
-
 @use '../custom'as *;
 
 .display-2 {
@@ -19,7 +18,7 @@
         margin-top: 1.2rem;
         text-transform: none;
 
-        @include media-breakpoint-up(lg){
+        @include media-breakpoint-up(lg) {
             font-size: 1.4rem;
             display: inline-block;
         }
@@ -50,7 +49,7 @@
 
 // display 3
 
-.display-3 { 
+.display-3 {
     font-family: $font-sans;
 
     &--title {
@@ -59,7 +58,7 @@
         font-weight: 600;
         font-family: $font-sans;
         display: inline-block;
-        background-image: linear-gradient(to right, $primary,$secondary);
+        background-image: linear-gradient(to right, $primary, $secondary);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -76,4 +75,10 @@
 .border-light {
     border-right: 0.1rem solid $gray-300;
     height: 100%;
+}
+
+// gradient bg 
+
+.gradient {
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
 }
